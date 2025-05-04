@@ -1,6 +1,6 @@
 # Mindloop MCP
 
-**MindLoop** allows AI agents to employ spaced repitition learning through an MCP server. Particularly, it uses Free Spaced Repetition Scheduler algorithms to model memory/forgetting.
+**MindLoop** allows AI agents to employ spaced repitition learning through an MCP server. Particularly, it uses the Free Spaced Repetition Scheduler (FSRS) algorithm to model memory/forgetting.
 
 ## Getting started
 
