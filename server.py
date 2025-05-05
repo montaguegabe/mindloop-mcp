@@ -5,7 +5,10 @@ import httpx
 from mcp.server.fastmcp import Context, FastMCP
 
 # TODO: Replace with actual backend API URL
-BACKEND_API_URL = "https://app.mindloop.net/api"  # "http://localhost:8000/api"
+DEV_MODE = False
+BACKEND_API_URL = (
+    "http://localhost:8000/api" if DEV_MODE else "https://app.mindloop.net/api"
+)
 
 # Initialize the MCP Server
 mcp = FastMCP("MindLoop Spaced Repetition")
